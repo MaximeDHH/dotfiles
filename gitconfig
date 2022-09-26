@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = maxime.beauge@gmail.com
+	name = Maxime Beauge
