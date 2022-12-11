@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv)
+plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv ssh-agent)
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
@@ -66,3 +66,8 @@ export LC_ALL=en_US.UTF-8
 
 export BUNDLER_EDITOR=code
 export EDITOR=code
+sudo /etc/init.d/postgresql start
+export HOMEBREW_PREFIX=~/usr/local
+export PATH=./bin:./node_modules/.bin:/root/.nvm/versions/node/v16.15.1/bin:/root/.rbenv/shims:/root/.rbenv/bin:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Maxime/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Maxime/AppData/Local/Programs/Microsoft VS Code/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:~/homebrew/bin:HOMEBREW_PREFIX/bin
+export HOMEBREW_PREFIX=~/usr/local
+export PATH=./bin:./node_modules/.bin:/root/.nvm/versions/node/v16.15.1/bin:/root/.rbenv/shims:/root/.rbenv/bin:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Maxime/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Maxime/AppData/Local/Programs/Microsoft VS Code/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:~/homebrew/bin:HOMEBREW_PREFIX/bin
